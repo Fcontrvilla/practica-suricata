@@ -2,11 +2,17 @@
 
 .footer {
     background-color: #E83E8C;
+
     
     
 }
 
-.titulos {
-    color:white;
+.palabra {
+  display: inline-block;
+}
 
+@media (max-width: 576px) {
+  .palabra {
+    display: block;
+  }
 }

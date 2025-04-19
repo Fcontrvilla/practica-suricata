@@ -1,14 +1,28 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+.nav-link {
+  color: white !important;
+  }
 
 .footer {
-    background-color: #E83E8C;
-
-    
-    
+  background-color: #E83E8C;
+   
 }
 
-.palabra {
-  display: inline-block;
+h1 {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #707070;
+}
+
+
+
+.tarjeta {
+  margin: 24;
+  padding: 1px;
 }
 
 @media (max-width: 576px) {
